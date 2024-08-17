@@ -25356,7 +25356,7 @@ const _export_sfc = /* @__PURE__ */ __name((sfc, props) => {
 const SidebarIcon = /* @__PURE__ */ _export_sfc(_sfc_main$s, [["__scopeId", "data-v-7a0b94a3"]]);
 const scriptRel = "modulepreload";
 const assetsURL = /* @__PURE__ */ __name(function(dep) {
-  return "/" + dep;
+  return "./" + dep;
 }, "assetsURL");
 const seen = {};
 const __vitePreload = /* @__PURE__ */ __name(function preload(baseModule, deps, importerUrl) {
@@ -84111,19 +84111,19 @@ app.use(PrimeVue, {
   }
 }).use(ConfirmationService).use(ToastService).use(pinia).use(i18n).mount("#vue-app");
 export {
-  $el as $,
-  ComfyDialog as C,
-  DraggableList as D,
-  LGraphCanvas as L,
-  ComfyApp as a,
-  app$1 as b,
-  LiteGraph as c,
-  applyTextReplacements as d,
-  ComfyWidgets as e,
-  addValueControlWidgets as f,
-  api as g,
-  LGraphGroup as h,
-  LGraphNode as i,
-  createSpinner as j
+    $el as $,
+    ComfyDialog as C,
+    DraggableList as D,
+    LGraphCanvas as L,
+    ComfyApp as a,
+    app$1 as b,
+    LiteGraph as c,
+    applyTextReplacements as d,
+    ComfyWidgets as e,
+    addValueControlWidgets as f,
+    api as g,
+    LGraphGroup as h,
+    LGraphNode as i,
+    createSpinner as j
 };
 //# sourceMappingURL=index-D8Zp4vRl.js.map
